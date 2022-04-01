@@ -1,8 +1,8 @@
 import "./about.css";
-import IMAGES from './../../images/index';
+import IMAGES from './../../images/images';
 
 const About = () => {
-    var Wiki = <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"}>Wiki</a>
+    const Wiki = <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"}>Wiki</a>
   return (
     <div className="a">
         <div className="a-left">
@@ -25,21 +25,27 @@ const About = () => {
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
             </ol>
             <div className="carousel-inner">
                 <div class="item active">
                 <img src={ IMAGES.Arrival1 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Edit Account</h4>
-                <h4 style={{ color: "black" }}>Make changes to email and password.</h4>
+                <h4>Edit Account</h4>
+                <h4>Make changes to email and password.</h4>
                 </div>
                 </div>
 
                 <div class="item">
                 <img src={ IMAGES.Arrival2 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Forgot Password</h4>
-                <p style={{ color: "black" }}>User can enter their email if they forgot their 
+                <h4>Forgot Password</h4>
+                <p>User can enter their email if they forgot their 
                     password where they will be sent a link to change their password.</p>
                 </div>
                 </div>
@@ -47,8 +53,8 @@ const About = () => {
                 <div class="item">
                 <img src={ IMAGES.Arrival3 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Notifications</h4>
-                <p style={{ color: "black" }}>The rider gets notified when 
+                <h4>Notifications</h4>
+                <p>The rider gets notified when 
                 a driver accepts their request.</p>
                 </div>
                 </div>
@@ -56,24 +62,24 @@ const About = () => {
                 <div class="item">
                 <img src={ IMAGES.Arrival4 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Geolocation</h4>
-                <p style={{ color: "black" }}>Identifies user's current location.</p>
+                <h4>Geolocation</h4>
+                <p>Identifies user's current location.</p>
                 </div>
                 </div>
 
                 <div class="item">
                 <img src={ IMAGES.Arrival5 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Offline</h4>
-                <p style={{ color: "black" }}>Users can see the current request while offline.</p>
+                <h4>Offline</h4>
+                <p>Users can see the current request while offline.</p>
                 </div>
                 </div>
 
                 <div class="item">
                 <img src={ IMAGES.Arrival6 } alt="" className="a-arrival1-9"/>
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Cancel Ride</h4>
-                <p style={{ color: "black" }}>Riders can cancel a request 
+                <h4>Cancel Ride</h4>
+                <p>Riders can cancel a request 
                 before they are picked up.</p>
                 </div>
                 </div>
@@ -81,8 +87,8 @@ const About = () => {
                 <div class="item">
                 <img src={ IMAGES.Arrival7 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>In-App Payment</h4>
-                <p style={{ color: "black" }}>Riders can pay with QR bucks by 
+                <h4>In-App Payment</h4>
+                <p>Riders can pay with QR bucks by 
                 having the driver scan the QR code.</p>
                 </div>
                 </div>
@@ -90,8 +96,8 @@ const About = () => {
                 <div class="item">
                 <img src={ IMAGES.Arrival8 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Rating</h4>
-                <p style={{ color: "black" }}>Riders can anonymously rate 
+                <h4>Rating</h4>
+                <p>Riders can anonymously rate 
                 the driver at the end of the ride.</p>
                 </div>
                 </div>
@@ -99,8 +105,8 @@ const About = () => {
                 <div class="item">
                 <img src={ IMAGES.Arrival9 } alt="" className="a-arrival1-9"/>
                 <div class="carousel-caption">
-                <h4 style={{ color: "black" }}>Ride History</h4>
-                <p style={{ color: "black" }}>The user can view their ride 
+                <h4>Ride History</h4>
+                <p>The user can view their ride 
                 history from the handy navigation menu.</p>
                 </div>
                 </div>
@@ -120,3 +126,4 @@ const About = () => {
 };
 
 export default About
+
