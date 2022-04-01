@@ -30,10 +30,6 @@ const Contact = () => {
                 <h1 className="c-title">Title</h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        <img src={Phone} alt="" className="c-icon" />
-                        +1 587-938-1060
-                    </div>
-                    <div className="c-info-item">
                         <img src={Email} alt="" className="c-icon" />
                         radaa.sirak@gmail.com
                     </div>
