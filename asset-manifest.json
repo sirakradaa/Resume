@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.9c292432.css",
+    "main.js": "/Resume/static/js/main.7e6ca506.js",
+    "static/media/Display.jpg": "/Resume/static/media/Display.d0fe0145e8a27560b842.jpg",
+    "static/media/Arrival1.png": "/Resume/static/media/Arrival1.d3c00664574664db8672.png",
+    "static/media/Arrival4.png": "/Resume/static/media/Arrival4.09629b575930ac5d039c.png",
+    "static/media/Arrival5.png": "/Resume/static/media/Arrival5.9477d6f130da92f225dc.png",
+    "static/media/Arrival6.png": "/Resume/static/media/Arrival6.b422c59a4596f23bbc73.png",
+    "static/media/Arrival9.png": "/Resume/static/media/Arrival9.24a8d72abd2ec480348a.png",
+    "static/media/Arrival8.png": "/Resume/static/media/Arrival8.d9dcdb1778e295792f21.png",
+    "static/media/Arrival7.png": "/Resume/static/media/Arrival7.0913d222afd1043ef449.png",
+    "static/media/Arrival2.png": "/Resume/static/media/Arrival2.247840719ac91d4fab84.png",
+    "static/media/location.png": "/Resume/static/media/location.2cbda58bb726425ba4db.png",
+    "static/media/phone.png": "/Resume/static/media/phone.0b98ef1af0009f3b86f2.png",
+    "static/media/Arrival.png": "/Resume/static/media/Arrival.d01e6e50f929b4dfb9e6.png",
+    "static/media/Arrival3.png": "/Resume/static/media/Arrival3.ce7839542b69e134b84d.png",
+    "index.html": "/Resume/index.html",
+    "main.9c292432.css.map": "/Resume/static/css/main.9c292432.css.map",
+    "main.7e6ca506.js.map": "/Resume/static/js/main.7e6ca506.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c292432.css",
+    "static/js/main.7e6ca506.js"
+  ]
+}
