@@ -3099,6 +3099,13 @@
   dependencies:
     "rsvp" "^4.8.4"
 
+"carousel@^0.0.3":
+  "integrity" "sha1-+DylWDFlu5jxdMAeZ6G1S5AsyX8="
+  "resolved" "https://registry.npmjs.org/carousel/-/carousel-0.0.3.tgz"
+  "version" "0.0.3"
+  dependencies:
+    "domready" "~0.2.12"
+
 "case-sensitive-paths-webpack-plugin@2.3.0":
   "integrity" "sha512-/4YgnZS8y1UXXmC02xD5rRrBEu6T5ub+mQHLNRj0fzTRbgdBYhsNo2V5EqwgqrExjxsjtF/OpAKAMkKsxbD5XQ=="
   "resolved" "https://registry.npmjs.org/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz"
@@ -4196,6 +4203,11 @@
   "version" "2.4.2"
   dependencies:
     "domelementtype" "1"
+
+"domready@~0.2.12":
+  "integrity" "sha1-Xsg0C17l92rXL9MgB8+104os02E="
+  "resolved" "https://registry.npmjs.org/domready/-/domready-0.2.13.tgz"
+  "version" "0.2.13"
 
 "domutils@^1.5.1", "domutils@^1.7.0":
   "integrity" "sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg=="
