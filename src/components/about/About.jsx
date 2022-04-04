@@ -1,5 +1,5 @@
 import "./about.css";
-import IMAGES from './../../images/images';
+import ARRIVAL from './../../images/arrival';
 
 const About = () => {
     const Wiki = <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"}>Wiki</a>
@@ -7,7 +7,7 @@ const About = () => {
     <div className="a">
         <div className="a-left">
             <div className="a-card">
-                <img src={ IMAGES.Arrival } alt="" className="a-Arrival" />
+                <img src={ ARRIVAL.Arrival } alt="" className="a-Arrival" />
                 <h1>Arrival</h1>
                 <p>Arrival is an Edmonton-based ride sharing platform for Android. 
                 Users can sign up as a Rider, or Driver, depending on their needs. 
@@ -34,7 +34,7 @@ const About = () => {
             </ol>
             <div className="carousel-inner">
                 <div class="item active">
-                <img src={ IMAGES.Arrival1 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival1 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Edit Account</h4>
                 <h4>Make changes to email and password.</h4>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival2 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival2 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Forgot Password</h4>
                 <p>User can enter their email if they forgot their 
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival3 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival3 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Notifications</h4>
                 <p>The rider gets notified when 
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival4 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival4 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Geolocation</h4>
                 <p>Identifies user's current location.</p>
@@ -68,7 +68,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival5 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival5 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Offline</h4>
                 <p>Users can see the current request while offline.</p>
@@ -76,7 +76,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival6 } alt="" className="a-arrival1-9"/>
+                <img src={ ARRIVAL.Arrival6 } alt="" className="a-arrival1-9"/>
                 <div class="carousel-caption">
                 <h4>Cancel Ride</h4>
                 <p>Riders can cancel a request 
@@ -85,7 +85,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival7 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival7 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>In-App Payment</h4>
                 <p>Riders can pay with QR bucks by 
@@ -94,7 +94,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival8 } alt="" className="a-arrival1-9" />
+                <img src={ ARRIVAL.Arrival8 } alt="" className="a-arrival1-9" />
                 <div class="carousel-caption">
                 <h4>Rating</h4>
                 <p>Riders can anonymously rate 
@@ -103,7 +103,7 @@ const About = () => {
                 </div>
 
                 <div class="item">
-                <img src={ IMAGES.Arrival9 } alt="" className="a-arrival1-9"/>
+                <img src={ ARRIVAL.Arrival9 } alt="" className="a-arrival1-9"/>
                 <div class="carousel-caption">
                 <h4>Ride History</h4>
                 <p>The user can view their ride 

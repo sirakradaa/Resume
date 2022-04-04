@@ -10,10 +10,11 @@ const Intro = () => {
                 <h2 classname="i-name">Sirak Radaa</h2>
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">Experience/Jobs</div>
-                        <div className="i-title-item">test2</div>
-                        <div className="i-title-item">test3</div>
-                        <div className="i-title-item">test4</div>
+                        <div className="i-title-item">Looking for job opportunities in</div>
+                        <div className="i-title-item">Front-End Development</div>
+                        <div className="i-title-item">Back-End Development</div>
+                        <div className="i-title-item">Full-Stack Development</div>
+                        <div className="i-title-item">Looking for job opportunities in</div>
                     </div>
                 </div>
                 <p className="i-desc">
