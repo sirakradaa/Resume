@@ -2,14 +2,14 @@
     width: 30%;
     height: 29vh;
     margin: 20px 150px;
-    border: 2px solid rgb(0, 19, 194);
+    border: 2px solid #094557;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
 .p-browser{
     height: 20px;
-    background-color: rgb(0, 19, 194);
+    background-color: #094557;
     display: flex;
     align-items: center;
 }

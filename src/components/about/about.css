@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: rgb(218, 248, 248);
 }
 
 .a-left{
@@ -11,6 +12,7 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    background-color: rgb(218, 248, 248);
 }
 
 .a-right{
@@ -24,6 +26,10 @@
     border-radius: 30px;
     position: absolute;
     top: 50px;
+    color: #094557;
+}
+.a-title{
+    color: #094557;
 }
 
 .a-Arrival{

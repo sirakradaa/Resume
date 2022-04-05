@@ -8,7 +8,7 @@ const About = () => {
         <div className="a-left">
             <div className="a-card">
                 <img src={ ARRIVAL.Arrival } alt="" className="a-Arrival" />
-                <h1>Arrival</h1>
+                <h1 classname="a-title">Arrival</h1>
                 <p>Arrival is an Edmonton-based ride sharing platform for Android. 
                 Users can sign up as a Rider, or Driver, depending on their needs. 
                 Riders are able to request rides between two locations within 
