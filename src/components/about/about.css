@@ -6,7 +6,7 @@
 }
 
 .a-left{
-    flex:1;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
 
 .a-card{
     height: 500px;
-    width: 500px;
+    width: 26vw;
     border-radius: 30px;
     position: absolute;
     top: 50px;
@@ -33,11 +33,15 @@
 }
 
 .a-Arrival{
-    width: 100%;
-    height: auto;
+    width: 25vw;
+    height: 25vw;
     left: 0px;
     right: 0px;
     overflow: hidden;
+}
+
+.carousel-inner{
+    height: 47vw;
 }
 
 .a-arrival1-9{
@@ -53,7 +57,67 @@
 
 .carousel-caption {
     bottom: 0px;
+    margin-bottom: -7%;
     color: black;
 
 }
 
+.carousel-indicators{
+    margin-bottom: -2%;
+    color: black;
+}
+
+.active{
+    color: black;
+}
+
+.carousel-header{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:480px){
+    .a{
+      flex-direction: column;
+      width: 100%;
+    }  
+
+    .a-left{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        background-color: rgb(218, 248, 248);
+    }
+
+    .a-card{
+        height: 500px;
+        width: 80vw;
+        border-radius: 30px;
+    }
+
+    .a-right{
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .carousel.slide{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+
+    .carousel-caption {
+        font-size: 10px;
+        color: black;
+    
+    }
+
+    .carousel-inner{
+        height: 100vw;
+    }
+  }
