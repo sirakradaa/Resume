@@ -15,7 +15,7 @@ const About = () => {
                 Edmonton city limits, while Drivers can view Rider's open 
                 requests in their area, and are able to accept the requests 
                 they wish to complete. More information about the app's 
-                features and development can be found on the project's <strong><u>{Wiki}</u></strong>.
+                features and development can be found on the project's <strong><u><b>{Wiki}</b></u></strong>.
                 </p>
             </div>
         </div>
