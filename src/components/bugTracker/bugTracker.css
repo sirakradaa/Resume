@@ -1,11 +1,11 @@
-.a{
+.b{
     height: 100vh;
     display: flex;
     align-items: center;
     background-color: rgb(218, 248, 248);
 }
 
-.a-left{
+.b-left{
     flex: 1;
     display: flex;
     align-items: center;
@@ -15,73 +15,48 @@
     background-color: rgb(218, 248, 248);
 }
 
-.a-right{
+.b-right{
     flex: 1;
     overflow: hidden;
 }
 
-.a-card{
+.b-card{
     height: 500px;
-    width: 26vw;
+    width: 28vw;
     border-radius: 30px;
     position: absolute;
     top: 50px;
     color: #094557;
 }
-.a-title{
+.b-title{
     color: #094557;
 }
 
-.a-Arrival{
-    width: 25vw;
-    height: 25vw;
+.b-BugTracker{
+    width: 20vw;
+    height: 20vw;
     left: 0px;
     right: 0px;
     overflow: hidden;
-}
-
-.carousel-inner{
-    height: 47vw;
-}
-
-.a-arrival1-9{
-    right: 200px;
-    width: 50%;
-    height: 85vh;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    overflow: hidden;
-}
-
-.carousel-caption {
-    bottom: 0px;
-    margin-bottom: -7%;
-    color: black;
-
-}
-
-.carousel-indicators{
-    margin-bottom: -2%;
-    color: black;
 }
 
 .active{
     color: black;
 }
 
-.carousel-header{
-    text-decoration: underline;
+
+.github{
+    height: 2vw;
+    width: 2vw;
 }
 
 @media screen and (max-width:480px){
-    .a{
+    .b{
       flex-direction: column;
       width: 100%;
     }  
 
-    .a-left{
+    .b-left{
         flex: 1;
         display: flex;
         align-items: center;
@@ -91,33 +66,14 @@
         background-color: rgb(218, 248, 248);
     }
 
-    .a-card{
+    .b-card{
         height: 500px;
         width: 80vw;
         border-radius: 30px;
     }
 
-    .a-right{
+    .b-right{
         flex: 1;
         overflow: hidden;
-    }
-
-    .carousel.slide{
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        height: 100%;
-    }
-
-    .carousel-caption {
-        font-size: 10px;
-        color: black;
-    
-    }
-
-    .carousel-inner{
-        height: 100vw;
     }
   }

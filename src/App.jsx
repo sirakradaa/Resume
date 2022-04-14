@@ -1,13 +1,21 @@
 import Intro from './components/intro/Intro';
-import About from './components/about/About';
+import Arrival from './components/arrival/Arrival';
+import BugTracker from './components/bugTracker/BugTracker';
 import ProductList from './components/productList/ProductList';
 import Contact from './components/contact/Contact';
+import { useEffect } from 'react';
 
 const App = () => {
+
+  useEffect(() => {
+    document.title = "Sirak Radaa Resume"
+ }, []);
+
   return (
     <div>
       <Intro/>
-      <About/>
+      <Arrival/>
+      <BugTracker/>
       <ProductList/>
       <Contact/>
     </div>

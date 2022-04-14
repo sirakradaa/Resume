@@ -1,7 +1,7 @@
-import Certificate1 from "./edx1.png"
-import Certificate2 from "./edx2.png"
-import Certificate3 from "./edx3.png"
-import Certificate4 from "./edx4.png"
+import Certificate1 from "./edx/edx1.png"
+import Certificate2 from "./edx/edx2.png"
+import Certificate3 from "./edx/edx3.png"
+import Certificate4 from "./edx/edx4.png"
 
 
 export const CERTIFICATES = [

@@ -1,22 +1,28 @@
-import "./about.css";
+import "./arrival.css";
 import ARRIVAL from './../../images/arrival';
+import GITHUB from './../../images/github.png'
 
-const About = () => {
-    const Wiki = <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"} target="_blank" rel="noreferrer">Wiki</a>
+
+const About = () => {    
   return (
     <div className="a">
         <div className="a-left">
             <div className="a-card">
                 <img src={ ARRIVAL.Arrival } alt="" className="a-Arrival" />
                 <h1 className="a-title">Arrival</h1>
+                <p><i>Java, Android SDK, FirebaseAuth, Firebase Firestore, 
+                    Firebase Storage, TravisCI</i></p>
                 <p>Arrival is an Edmonton-based ride sharing platform for Android. 
                 Users can sign up as a Rider, or Driver, depending on their needs. 
                 Riders are able to request rides between two locations within 
                 Edmonton city limits, while Drivers can view Rider's open 
                 requests in their area, and are able to accept the requests 
                 they wish to complete. More information about the app's 
-                features and development can be found on the project's <strong><u><b>{Wiki}</b></u></strong>.
+                features and development can be found on the project's Wiki.
                 </p>
+                <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"} target="_blank" rel="noreferrer">
+                    <img src={ GITHUB } alt="" className="github" />
+                </a>
             </div>
         </div>
         <div className="a-right">
