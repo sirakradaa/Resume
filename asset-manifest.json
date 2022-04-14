@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.fd953f9c.css",
-    "main.js": "/Resume/static/js/main.7462c7ce.js",
+    "main.css": "/Resume/static/css/main.07745c95.css",
+    "main.js": "/Resume/static/js/main.05edf597.js",
     "static/media/Display.jpg": "/Resume/static/media/Display.d0fe0145e8a27560b842.jpg",
+    "static/media/BugTracker.mp4": "/Resume/static/media/BugTracker.276ec52abecd08e41263.mp4",
     "static/media/Arrival1.png": "/Resume/static/media/Arrival1.d3c00664574664db8672.png",
     "static/media/Arrival4.png": "/Resume/static/media/Arrival4.09629b575930ac5d039c.png",
     "static/media/Arrival5.png": "/Resume/static/media/Arrival5.9477d6f130da92f225dc.png",
@@ -11,19 +12,20 @@
     "static/media/Arrival8.png": "/Resume/static/media/Arrival8.d9dcdb1778e295792f21.png",
     "static/media/Arrival7.png": "/Resume/static/media/Arrival7.0913d222afd1043ef449.png",
     "static/media/Arrival2.png": "/Resume/static/media/Arrival2.247840719ac91d4fab84.png",
-    "static/media/location.png": "/Resume/static/media/location.2cbda58bb726425ba4db.png",
+    "static/media/bug.png": "/Resume/static/media/bug.c50733de7d4deac587a6.png",
     "static/media/edx1.png": "/Resume/static/media/edx1.111fea48fc948e1208c7.png",
     "static/media/edx4.png": "/Resume/static/media/edx4.8d6e31ceaa7d5448eb19.png",
     "static/media/edx3.png": "/Resume/static/media/edx3.30ef522dd8d6dca95fdd.png",
     "static/media/edx2.png": "/Resume/static/media/edx2.9d27f0cb0dd9e391675d.png",
     "static/media/Arrival.png": "/Resume/static/media/Arrival.d01e6e50f929b4dfb9e6.png",
     "static/media/Arrival3.png": "/Resume/static/media/Arrival3.ce7839542b69e134b84d.png",
+    "static/media/github.png": "/Resume/static/media/github.ff2648078e819f6a9666.png",
     "index.html": "/Resume/index.html",
-    "main.fd953f9c.css.map": "/Resume/static/css/main.fd953f9c.css.map",
-    "main.7462c7ce.js.map": "/Resume/static/js/main.7462c7ce.js.map"
+    "main.07745c95.css.map": "/Resume/static/css/main.07745c95.css.map",
+    "main.05edf597.js.map": "/Resume/static/js/main.05edf597.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd953f9c.css",
-    "static/js/main.7462c7ce.js"
+    "static/css/main.07745c95.css",
+    "static/js/main.05edf597.js"
   ]
 }
