@@ -1,46 +1,8 @@
 .c{
-    height: 100vh;
+    height: 10vw;
     position: relative;
+    text-align: center;
     background-color: rgb(218, 248, 248);
-}
-
-.c-bg{
-    width: 20px;
-    height: 100%;
-    background-color: #094557;
-    position: absolute;
-}
-
-.c-wrapper{
-    padding: 50px;
-    display: flex;
-}
-
-.c-left{
-    flex:1
-}
-
-.c-right{
-    flex: 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.c-title{
-    font-size: 60px;
-    width: 80%;
-    color: #094557;
-}
-
-.c-info-item{
-    display: flex;
-    align-items: center;
-    margin: 50px 0px;
-    font-weight: 300;
-    width: 70%;
-    color: #094557;
 }
 
 .c-icon{
@@ -50,30 +12,11 @@
 }
 
 .c-desc{
-    font-weight: 200;
+    font-weight: bold;
+    font-size: 20px;
     color: #094557;
 }
 
-form{
-    margin-top: 20px;
-}
-
-input{
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
-}
-
-textarea{
-    width: 100%;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
-}
 
 button{
     border: none;

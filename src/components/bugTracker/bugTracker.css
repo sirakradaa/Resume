@@ -54,6 +54,7 @@
     .b{
       flex-direction: column;
       width: 100%;
+      height: 180vw;
     }  
 
     .b-left{
@@ -74,6 +75,7 @@
 
     .b-right{
         flex: 1;
+        height: 2vw;
         overflow: hidden;
     }
   }

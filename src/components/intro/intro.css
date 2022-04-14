@@ -27,9 +27,14 @@
   }
   
   .i-intro {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
     color: #1F5673;
+  }
+  
+  .i-name{
+    margin-top: -5px;
+    font-size: 50px;
   }
   
   .i-title {
@@ -37,21 +42,24 @@
     overflow: hidden;
   }
   
-  .i-title-wrapper {
-    height: 100%;
-    font-size: 11vw;
-    animation: move 10s ease-in-out infinite alternate;
+  .i-desc{
+    margin-top: -10px;
+    width: 40vw;
   }
-  
   
   .i-title-item {
     font-size: 1.5vw;
-    font-weight: bold;
+    font-style: italic;
     display: flex;
     align-items: center;
     color: #094557;
   }
-  
+
+  .i-skills{
+    margin-top: -10px;
+    width: 40vw;
+  }
+
   .i-scroll {
     width: 30px;
     height: 30px;

@@ -6,18 +6,23 @@ const Intro = () => {
     <div className="i">
         <div className="i-left">
             <div className="i-left-wrapper">
-                <h2 className="i-intro">Hello, my name is <br /> <br /> Sirak Radaa</h2>
-                <div className="i-title">
-                    <div className="i-title-wrapper">
-                        <div className="i-title-item">Looking for job opportunities in</div>
-                        <div className="i-title-item">Front-End Development</div>
-                        <div className="i-title-item">Back-End Development</div>
-                        <div className="i-title-item">Full-Stack Development</div>
-                    </div>
-                </div>
+                <h2 className="i-intro">Hi, my name is</h2>
+                <h2 className="i-name">Sirak Radaa</h2>
+                <div className="i-title-item">I am looking for job opportunities in</div>
+                <div className="i-title-item">Front-End Development</div>
+                <div className="i-title-item">Back-End Development</div>
+                <div className="i-title-item">Full-Stack Development</div>
+                <h2><b>About Me:</b></h2>
                 <p className="i-desc">
-                I am a 4th year Computing Science student at the University of Alberta. 
+                I am a 4th year Computing Science student at the University of Alberta 
+                graduating in April 2022, and I am excited to start a career in development. 
+                I look forward to improving as a developer and a coder because it seems that 
+                the learning never stops.
                 </p>
+                <h2><b>Skills:</b></h2>
+                <p className="i-skills">Languages: Python, Javascript, HTML, CSS, Java, C#, SQL <br />
+                Frameworks: React, Node, Express, NoSQL, Android SDK, Django, PyTest, Pandas, WordPress <br />
+                Tools: Git, GitHub, Firebase, MongoDB, TravisCI, Bootstrap, Scrum, Slack, Figma</p>
             </div>
         <svg
           width="75"
