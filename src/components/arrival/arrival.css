@@ -130,6 +130,7 @@
     .carousel-caption {
         width: 70%;
         bottom: 0px;
+        font-size: 10px;
         margin-bottom: -16%;
         color: black;
     

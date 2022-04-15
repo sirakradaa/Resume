@@ -4,7 +4,7 @@ import { CERTIFICATES } from './../../images/certificates';
 
 const ProductList = () => {
   return (
-    <div className="pl">
+    <div className="pl" id="certifications">
         <div className="pl-texts">
             <h1 className="pl-title">Certifications</h1>
             <p className="pl-desc">

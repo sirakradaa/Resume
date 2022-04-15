@@ -1,20 +1,44 @@
 import "./intro.css"
 import Display from "../../images/Display.jpg"
+import { Link } from 'react-scroll'
 
 const Intro = () => {
+
+
   return (
     <div className="i">
         <div className="i-left">
           <div className="i-jumpto-wrapper">
-            <p className="i-jumpto" onClick={() => window.location.replace("/#arrival")}>
-              <span>Projects</span>
-            </p>
-            <p className="i-jumpto" onClick={() => window.location.replace("/#certifications")}>
-              <span>Certifications</span>
-            </p>
-            <p className="i-jumpto" onClick={() => window.location.replace("/#contact")}>
-              <span>Contact Me</span>
-            </p>
+            <Link activeClass="active"
+              className="i-jumpto"
+              to="arrival"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link activeClass="active"
+              className="i-jumpto"
+              to="certifications"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Certifications
+            </Link>
+            <Link activeClass="active"
+              className="i-jumpto"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact Me
+            </Link>
           </div>
             <div className="i-left-wrapper">
                 <h2 className="i-intro">Hi, my name is</h2>
