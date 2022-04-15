@@ -1,5 +1,5 @@
 .a{
-    height: 100vh;
+    height: 51vw;
     display: flex;
     align-items: center;
     background-color: rgb(218, 248, 248);
@@ -56,6 +56,7 @@
 }
 
 .carousel-caption {
+    font-size: 0.85vw;
     bottom: 0px;
     margin-bottom: -6.5%;
     color: black;
@@ -74,7 +75,7 @@
     text-decoration: underline;
 }
 
-.github{
+.a-github{
     height: 4vw;
     width: 4vw;
 }
@@ -82,7 +83,7 @@
 @media screen and (max-width:480px){
     .a{
       flex-direction: column;
-      height: 250vw;
+      height: 280vw;
       width: 100%;
     }  
 
@@ -102,8 +103,14 @@
         border-radius: 30px;
     }
 
+    .a-github{
+        width: 8vw;
+        height: 8vw;
+    }
+
     .a-right{
         flex: 1;
+        margin-top: 40px;
         overflow: hidden;
     }
 
@@ -121,7 +128,7 @@
     }
 
     .carousel-caption {
-        font-size: 10px;
+        width: 70%;
         bottom: 0px;
         margin-bottom: -16%;
         color: black;

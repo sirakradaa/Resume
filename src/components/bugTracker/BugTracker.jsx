@@ -18,8 +18,8 @@ const About = () => {
                     also be resolved to remove them from the list. 
                     Developed using React, Node.js, HTML, CSS. Includes 
                     testing with React Testing Library.</p>
-                <a href={"https://github.com/sirakradaa/BugTracker"} target="_blank" rel="noreferrer">
-                    <img src={ GITHUB } alt="" className="github" />
+                <a className="b-external" href={"https://github.com/sirakradaa/BugTracker"} target="_blank" rel="noreferrer">
+                    <img src={ GITHUB } alt="" className="b-github" />
                 </a>
             </div>
         </div>

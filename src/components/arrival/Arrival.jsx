@@ -5,7 +5,7 @@ import GITHUB from './../../images/github.png'
 
 const About = () => {    
   return (
-    <div className="a">
+    <div className="a" id="arrival">
         <div className="a-left">
             <div className="a-card">
                 <img src={ ARRIVAL.Arrival } alt="" className="a-Arrival" />
@@ -20,8 +20,8 @@ const About = () => {
                 they wish to complete. More information about the app's 
                 features and development can be found on the project's Wiki.
                 </p>
-                <a href={"https://github.com/CMPUT301W20T07/arrival/wiki"} target="_blank" rel="noreferrer">
-                    <img src={ GITHUB } alt="" className="github" />
+                <a className="a-external" href={"https://github.com/CMPUT301W20T07/arrival/wiki"} target="_blank" rel="noreferrer">
+                    <img src={ GITHUB } alt="" className="a-github" />
                 </a>
             </div>
         </div>
@@ -43,7 +43,7 @@ const About = () => {
                 <img src={ ARRIVAL.Arrival1 } alt="" className="a-arrival1-9" />
                 <div className="carousel-caption">
                 <h4 className="carousel-header">Edit Account</h4>
-                <h4>Make changes to a users email and password.</h4>
+                <p>Make changes to a users email and password.</p>
                 </div>
                 </div>
 

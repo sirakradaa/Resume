@@ -5,6 +5,10 @@
     background-color: rgb(218, 248, 248);
 }
 
+.c-wrapper{
+    background-color:  rgb(218, 248, 248);
+}
+
 .c-icon{
     width: 30px;
     height: 30px;
@@ -27,8 +31,17 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #094557;
+    color: white;
+}
+
 @media screen and (max-width:480px){
+    .c{
+        background-color: rgb(218, 248, 248);
+    }
     .c-wrapper{
       flex-direction: column;
+      background-color:  rgb(218, 248, 248);
     }
   }

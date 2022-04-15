@@ -1,5 +1,5 @@
 .b{
-    height: 100vh;
+    height: 35vw;
     display: flex;
     align-items: center;
     background-color: rgb(218, 248, 248);
@@ -45,7 +45,7 @@
 }
 
 
-.github{
+.b-github{
     height: 2vw;
     width: 2vw;
 }
@@ -54,7 +54,7 @@
     .b{
       flex-direction: column;
       width: 100%;
-      height: 180vw;
+      height: 210vw;
     }  
 
     .b-left{
@@ -77,5 +77,10 @@
         flex: 1;
         height: 2vw;
         overflow: hidden;
+    }
+
+    .b-github{
+        height: 8vw;
+        width: 8vw;
     }
   }
